@@ -39,7 +39,7 @@ if(loading){
 }
 
   return (<main>
-    <Tours/>
+    <Tours tours={tours}/>
   </main>
   );
 }
